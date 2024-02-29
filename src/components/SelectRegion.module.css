@@ -1,0 +1,17 @@
+.selectRegion_Container {
+  margin: 20px 20px;
+  width: 100%;
+}
+
+.filterRegion {
+  padding: 15px 20px;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+  font-family: inherit;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left: 20px;
+}

@@ -1,0 +1,33 @@
+.btn_back {
+  width: 125px;
+  padding: 10px 5px;
+  color: inherit;
+  text-transform: uppercase;
+  font-family: inherit;
+  font-weight: var(--fw-600);
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: none;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.btn_back:focus {
+  outline: none;
+}
+
+.btn_back.light {
+  background-color: var(--button-background-color-light);
+  color: var(--text-color-light);
+}
+
+.btn_back.dark {
+  background-color: var(--button-background-color-dark);
+  color: var(--text-color-dark);
+}

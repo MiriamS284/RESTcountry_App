@@ -1,0 +1,33 @@
+.filter_Container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 100%;
+  margin: 20px 20px;
+}
+
+.searchInput {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 10px;
+  padding-left: 50px;
+  border-radius: 5px;
+  font-family: inherit;
+  letter-spacing: 0.5px;
+  width: 100%;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 30px;
+}
+
+@media (min-width: 768px) {
+  .filter_Container {
+    width: 30%;
+  }
+}
