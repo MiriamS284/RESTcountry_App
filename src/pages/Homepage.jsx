@@ -9,7 +9,7 @@ function Homepage() {
   const [filterRegion, setFilterRegion] = useState("All");
 
   return (
-    <main className="wrapper">
+    <section className="main_wrapper">
       <div className={styles.filterBar}>
         <Filter setSearchTerm={setSearchTerm} />
         <SelectRegion
@@ -20,7 +20,7 @@ function Homepage() {
       <div className="country-grid-container">
         <CountryList searchTerm={searchTerm} filterRegion={filterRegion} />
       </div>
-    </main>
+    </section>
   );
 }
 
