@@ -9,7 +9,10 @@ function CountryCard({ country }) {
     theme === "dark" ? "dark-mode-shadow" : "light-mode-shadow";
 
   return (
-    <Link to={`/country/${country.name.common}`} className={styles.cardLink}>
+    <Link
+      to={`/country/${encodeURIComponent(country.name.common)}`}
+      className={styles.cardLink}
+    >
       <div
         className={`${styles.card} ${shadowClass}`}
         style={{

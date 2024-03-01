@@ -4,8 +4,6 @@ This application is a user-friendly interface for exploring information about co
 
 ![RESTcountry Desktop Dark](/public/images/Screenshots/desktop_dark.png)
 ![RESTcountry Desktop Light](/public/images/Screenshots/desktop_light.png)
-![RESTcountry Desktop Light](/public/images/Screenshots/desktop_dark_details.png)
-![RESTcountry Desktop Light](/public/images/Screenshots/mobile_dark.png)
 ![RESTcountry Desktop Light](/public/images/Screenshots/mobile_light_details.pngt)
 
 ## Features

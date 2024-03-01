@@ -9,7 +9,10 @@ function SearchFilter({ setSearchTerm }) {
     theme === "dark" ? "hsl(0, 0%, 52%)" : "hsl(200, 15%, 8%)";
 
   return (
-    <section className={styles.filter_Container}>
+    <section
+      aria-labelledby="filterHeading"
+      className={styles.filter_Container}
+    >
       <svg
         className={styles.searchIcon}
         width="16"

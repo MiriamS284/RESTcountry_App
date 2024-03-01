@@ -9,10 +9,13 @@ function Homepage() {
   const [filterRegion, setFilterRegion] = useState("All");
 
   return (
-    <main className="main-wrapper">
+    <main className="wrapper">
       <div className={styles.filterBar}>
         <Filter setSearchTerm={setSearchTerm} />
-        <SelectRegion setFilterRegion={setFilterRegion} />
+        <SelectRegion
+          setFilterRegion={setFilterRegion}
+          currentRegion={filterRegion}
+        />
       </div>
       <div className="country-grid-container">
         <CountryList searchTerm={searchTerm} filterRegion={filterRegion} />
